@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="jumbotron">
+    <h1 class="display-4">Hello, {{ current_user.id }}!</h1>
+    <p class="lead">This is a simple expense tracker application.</p>
+    <hr class="my-4">
+    <p>It allows you to register, login, and logout securely.</p>
+</div>
+{% endblock %}
